@@ -12,17 +12,17 @@ Well.Apache Spark is a lightning-fast cluster computing technology, designed for
 
 Spark is designed to cover a wide range of workloads such as batch applications, iterative algorithms, interactive queries and streaming. Apart from supporting all these workload in a respective system, it reduces the management burden of maintaining separate tools.
 
-###### Features of Apache Spark
+## Features of Apache Spark
 
 Apache Spark has following features.
 - **Speed** − It helps to run an Application in Hadoop Cluster, upto **100 times Faster in-memory**, and **10 times faster when running   on disk**. This is possible by reducing number of read/write operations to disk. It stores intermediate processing data in memory.
 - **Supports Multiple Languages** - Spark provides built-in APIs in **Java**, **Scala** and **Python**.It comes up with 80 high-level     operators for interactive querying.
-- **Advanced Analytics** - Spark not only Supports **'Map'** and **'Reduce'**. It also supports **'SQL Queries, Streaming Data, Machine   Learning and Graph Algorithms
+- **Advanced Analytics** - Spark not only Supports **'Map'** and **'Reduce'**. It also supports **SQL Queries, Streaming Data, Machine   Learning and Graph Algorithms**
 
-###### Components of Apache Spark:
+## Components of Apache Spark:
 ![](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/apache-spark-ecosystem-components.jpg)
 
-###### Resilient Distributed Datasets(RDD):
+## Resilient Distributed Datasets(RDD):
 
 You Should also know about RDDs before working on Spark Environment. 
 - Resilient Distributed Datasets (RDD) is a fundamental data structure of Spark. It is an immutable distributed collection of objects.     Each dataset in RDD is divided into logical partitions, which may be computed on different nodes of the cluster. RDDs can contain any   type of Python, Java, or Scala objects, including user-defined classes.
@@ -50,6 +50,7 @@ If it is properly Installed You will see something like this:
   Java(TM) SE Runtime Environment (build 1.7.0_71-b13) 
   Java HotSpot(TM) Client VM (build 25.0-b02, mixed mode)
 ```
+
 Then,Install `SCALA-2.11.8` Version which is [Here](https://downloads.lightbend.com/scala/2.11.8/scala-2.11.8.msi) and Check it using
 this command:
 > scala -version
