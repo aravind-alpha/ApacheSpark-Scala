@@ -8,6 +8,7 @@ You Can Learn **Scala** [Here](https://twitter.github.io/scala_school/)
 You Can Learn **SQL** [Here](https://www.w3schools.com/sql/)
 
 ## What is Spark and Why should I Use it ?
+
 Well.Apache Spark is a lightning-fast cluster computing technology, designed for fast computation. It is based on [Hadoop MapReduce](https://data-flair.training/blogs/hadoop-mapreduce-tutorial/) and it extends the MapReduce model to efficiently use it for more types of computations, which includes interactive queries and stream processing. The main feature of Spark is its in-memory cluster computing that increases the processing speed of an application.
 
 Spark is designed to cover a wide range of workloads such as batch applications, iterative algorithms, interactive queries and streaming. Apart from supporting all these workload in a respective system, it reduces the management burden of maintaining separate tools.
@@ -25,7 +26,7 @@ Apache Spark has following features.
 ## Resilient Distributed Datasets(RDD):
 
 You Should also know about RDDs before working on Spark Environment. 
-- Resilient Distributed Datasets (RDD) is a fundamental data structure of Spark. It is an immutable distributed collection of objects.     Each dataset in RDD is divided into logical partitions, which may be computed on different nodes of the cluster. RDDs can contain any   type of Python, Java, or Scala objects, including user-defined classes.
+- Resilient Distributed Datasets (RDD) is a **fundamental data structure of Spark**. It is an immutable distributed collection of objects.     Each dataset in RDD is divided into logical partitions, which may be computed on different nodes of the cluster. RDDs can contain any   type of Python, Java, or Scala objects, including user-defined classes.
 - Formally, an RDD is a read-only, partitioned collection of records. RDDs can be created through deterministic operations on either       data on stable storage or other RDDs. RDD is a fault-tolerant collection of elements that can be operated on in parallel.
 - There are **two ways** to create RDDs − parallelizing an existing collection in your driver program, or referencing a dataset in an     external storage system, such as a shared file system, HDFS, HBase, or any data source offering a Hadoop Input Format.
 
@@ -39,12 +40,14 @@ You can Learn More about Apache Spark [Here](https://data-flair.training/blogs/s
     - Create a new folder in C:Drive as **work** and then copy it to **work** folder and add in Environment Variables(each seperately)
     - In Environment Variables Create a `HOME` for specific softwares and **add** in path below with `\bin` if required
 
-* You Need to Install `JAVA` first which can be found [Here.](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-  2133151.html)
+* You Need to Install `JAVA` first which can be found [Here.](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
  Check if it is installed in your machine by using:
+
 > java -version
 
 If it is properly Installed You will see something like this:
+
 ```  
   java version "1.8.0_221" 
   Java(TM) SE Runtime Environment (build 1.7.0_71-b13) 
@@ -53,10 +56,14 @@ If it is properly Installed You will see something like this:
 
 Then,Install `SCALA-2.11.8` Version which is [Here](https://downloads.lightbend.com/scala/2.11.8/scala-2.11.8.msi) and Check it using
 this command:
+
 > scala -version
 
 You will see something like this:
-> Scala code runner version 2.11.8 -- Copyright 2002-2016, LAMP/EPFL
+
+```
+Scala code runner version 2.11.8 -- Copyright 2002-2016, LAMP/EPFL
+```
 
 Download **SBT** which means **SCALA Build-Tool** Version 1.2.6 can be found [Here](https://piccolo.link/sbt-1.2.6.msi)
 
@@ -72,18 +79,20 @@ Download All the Following Softwares seperately and Extract it to **work** Folde
 - [Hadoop - 2.7.2.tar.gz](https://archive.apache.org/dist/hadoop/core/hadoop-2.7.2/hadoop-2.7.2.tar.gz)
 - [Hadoop -2.7.2.zip](https://drive.google.com/file/d/1gaTqmmnvPUJTXnnckpEYFrRsyLFZroex/view?usp=sharing_eip&ts=5a79a2ec)
 ###### NOTE: 
- * copy `**bin**`, `**etc**` folders from this and paste it in hadoop-2.7.2.tar.gz after extracting
+ * copy `bin`, `etc` folders from this and paste it in hadoop-2.7.2.tar.gz after extracting
  * Open hadoop-2.7.2.tar.gz after extracting, edit and change your JAVA path in hadoop env(Windows Script) and save it 
- * Create a new folder called "tmp" in 'C'Drive and add Hive folder and copy the path
+ * Create a new folder called `tmp` in **C:** Drive and add Hive folder and copy the path
  * Open hadoop-2.7.2-->bin and type cmd:
- > => C:\work\hadoop-2.7.2\bin>winutils.exe chmod 777 C:\tmp\hive      ///and press `Enter`
+ > => C:\work\hadoop-2.7.2\bin>winutils.exe  chmod 777  C:\tmp\hive      ///and press `Enter`
 
 - [Spark 2.3.1_bin-Hadoop 2.7.tgz](http://mirrors.estointernet.in/apache/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz) 
 ###### Note: After Installing Hadoop and Spark go to the terminal/cmd type:
+
 > hdfs namenode -format
 
 For Checking whether spark has installed on your machine just type `spark-shell` in your cmd prompt/terminal and press `Enter`.
 You will be something like this:
+
 ```
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
