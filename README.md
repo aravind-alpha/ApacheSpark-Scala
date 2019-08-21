@@ -2,7 +2,30 @@
 
 ![](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/Apache%20Spark%20Logo.png)
 
-This Repository Demonstrates the work done by me while Learning [Apache Spark](http://spark.apache.org/). Code Snippets contains **SCALA** and **SQL**
+This Repository Demonstrates the work done by me while Learning [Apache Spark](http://spark.apache.org/). Code Snippets contains **SCALA** and **SQL**. It contains the following Code Snippets:
+
+## Spark-Core:
+* [RDD Transformations and Actions](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparkcore/RDDTransformationsActions.scala)
+* [Sample WordCount Program](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparkcore/wordcount.scala)
+
+## Spark-SQL:
+* [Dataset-API](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/Dataset-API.scala)
+* [Exporting MySQL Data](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/Export_MySql_data.scala)
+* [MS-SQL Data Processing](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/get_MSSqlData.scala)
+* [Oracle Data Processing](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/get_Oracledata.scala)
+* [Redshift Data Processing](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/get_Redshiftdata.scala)
+* [Joining MySQL-Oracle Data](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/join_MySql-Oracle_Data.scala)
+* [Processing XML Data](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/process_XML_data.scala)
+* [Processing Cassandra Data](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/process_cassandra_data.scala)
+* [RDD DataFrame Tasks](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/rdd_dataframe_tasks.scala)
+* [Spark_Dataframes](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/spark_dataframes.scala)
+* [Spark_UDF Tasks](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/spark_udf_tasks.scala)
+* [Hbase-Phoenix Data Processing](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/Hbase-pheonix_data.scala)
+* [Orc-Parquet-Hive Data Processing](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/Orc-Parquet-Hive_Data.scala)
+* [Fire_Service Analysis](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/Fire_Dept_Call_Service_analysis_POC.scala)
+* [Real Estate Data Analysis](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/RealEstate_data_analysis.scala)
+* [Airline Data Analysis](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/airlinedataanalysis_csv.scala)
+* [Worldbank Data Analysis_json](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/worldbankdatanalysis_json.scala)
 
 You Can Learn **Scala** [Here](https://twitter.github.io/scala_school/)
 You Can Learn **SQL** [Here](https://www.w3schools.com/sql/)
