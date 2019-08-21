@@ -1,0 +1,126 @@
+//install java8
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+java -version
+
+
+//scala 2.11.8 installation steps
+sudo apt-get remove scala-library scala
+sudo wget www.scala-lang.org/files/archive/scala-2.11.8.deb
+sudo dpkg -i scala-2.11.8.deb
+sudo apt-get update
+sudo apt-get install scala
+
+//install mysql
+
+#How to install MYSQL
+sudo apt-get install mysql-server mysql-client mysql-common
+#Wait few seconds enter password for root 
+hadoop
+#Wait few minutes
+
+
+sudo apt-get install openssh-server
+
+ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
+cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
+chmod 0600 ~/.ssh/authorized_keys
+ssh-keygen
+//enter enter  enter
+ssh-add
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+ssh localhost
+//now 99% don't popup password. Still asking mail me ill help you
+
+//Note change "hadoop" name where you find at /home/hadoop
+//paste these lines after fi last line
+gedit ~/.bashrc
+//////////////////////////bashrc file////////////////
+
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+    export HADOOP_HOME=/home/hadoop/work/hadoop-2.7.2
+
+    export HADOOP_INSTALL=$HADOOP_HOME
+    export HADOOP_PREFIX=$HADOOP_HOME
+    export HADOOP_COMMON_HOME=$HADOOP_HOME
+    export HADOOP_HDFS_HOME=$HADOOP_HOME
+    export HADOOP_MAPRED_HOME=$HADOOP_HOME
+    export YARN_HOME=$HADOOP_HOME
+    export HADOOP_CMD=$HADOOP_HOME
+    export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+    export YARN_CONF_DIR=$HADOOP_HOME/etc/hadoop
+    export HADOOP_COMMON_LIB_NATIVE_DIR=${HADOOP_PREFIX}/lib/native
+    export HADOOP_OPTS="$HADOOP_OPTS -Djava.library.path=$HADOOP_HOME/lib/native"
+    export PATH=$JAVA_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
+
+
+    export HIVE_HOME=/home/hadoop/work/apache-hive-1.2.1-bin
+    export HIVE_CONF_DIR=$HIVE_HOME/conf
+    export HIVE_CLASS_PATH=$HIVE_CONF_DIR
+    export HADOOP_USER_CLASSPATH_FIRST=true
+    export PATH=$HIVE_HOME/bin:$PATH
+
+    export HBASE_HOME=/home/hadoop/work/hbase-1.2.6
+    export HBASE_CONF_DIR=$HBASE_HOME/conf
+    export HBASE_CLASSPATH=$HBASE_CONF_DIR
+    export PATH=$HBASE_HOME/bin:$PATH
+
+    export PHOENIX_HOME=/home/hadoop/work/apache-phoenix-4.12.0-HBase-1.2-bin
+    export PATH=$PHOENIX_HOME/bin:$PATH
+
+    export SQOOP_HOME=/home/hadoop/work/sqoop-1.4.7.bin__hadoop-2.6.0
+    export PATH=$SQOOP_HOME/bin:$PATH
+
+    export SPARK_HOME=/home/hadoop/work/spark-2.3.0-bin-hadoop2.7
+ #export SPARK_HOME=/home/hadoop/work/spark-1.6.2-bin-hadoop2.6
+    export PATH=$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
+    
+    export SCALA_HOME=/home/hadoop/work/scala-2.11.8
+    export PATH=$SCALA_HOME/bin:$PATH
+    
+    export ZOOKEEPER_HOME=/home/hadoop/work/zookeeper-3.4.9
+    export PATH=$ZOOKEEPER_HOME/bin:$PATH
+
+    export KAFKA_HOME=/home/hadoop/work/kafka_2.11-0.10.2.1
+    export PATH=$KAFKA_HOME/bin:$PATH
+    
+    export FLINK_HOME=/home/hadoop/work/flink-1.4.2
+    export PATH=$FLINK_HOME/bin:$PATH
+
+    export CASSANDRA_HOME=/home/hadoop/work/apache-cassandra-3.11.0
+    export PATH=$CASSANDRA_HOME/bin:$PATH
+
+    export ALLUXIO_HOME=/home/hadoop/work/alluxio-1.5.0-hadoop-2.7
+    export PATH=$ALLUXIO_HOME/bin:$PATH
+
+
+    export AWS_ACCESS_KEY_ID=""
+    export AWS_SECRET_ACCESS_KEY=""
+	
+	hdfs namenode -format
+
+///install intellij
+//Run this command, 
+sudo apt-get install gksu
+gksudo gedit /usr/share/applications/idea.desktop
+
+#enter password
+#paste it
+[Desktop Entry]
+Name=IntelliJ IDEA
+Type=Application
+Exec=/home/hadoop/work/idea/bin/idea.sh
+Terminal=false
+Icon=/home/hadoop/work/idea/bin/idea.png
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE;
+Name[en]=IntelliJ IDEA
+
+//install sbt 
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+sudo apt-get update
+sudo apt-get install sbt
