@@ -4,6 +4,8 @@
 
 This Repository Demonstrates the work done by me while Learning [Apache Spark](http://spark.apache.org/). Code Snippets contains **SCALA** and **SQL**. It contains the following Code Snippets:
 
+#### Note: Some Datasets are big which couldn't be uploaded mostly used datasets in these code can be found [Here.](https://github.com/i-m-aravind/spark-scala-tasks/tree/master/Datasets)
+
 ## Spark-Core:
 * [RDD Transformations and Actions](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparkcore/RDDTransformationsActions.scala)
 * [Sample WordCount Program](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparkcore/wordcount.scala)
