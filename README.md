@@ -39,7 +39,7 @@ You can Learn More about Apache Spark [Here](https://data-flair.training/blogs/s
     - Create a new folder in C:Drive as **work** and then copy it to **work** folder and add in Environment Variables(each seperately)
     - In Environment Variables Create a `HOME` for specific softwares and **add** in path below with `\bin` if required
 
-* You Need to Install `JAVA` first which can be found [Here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-  2133151.html).
+* You Need to Install `JAVA` first which can be found [Here.](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-  2133151.html)
 
  Check if it is installed in your machine by using:
 > java -version
