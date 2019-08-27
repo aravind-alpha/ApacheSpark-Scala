@@ -146,5 +146,5 @@ I used spark 2.3.1 and scala 2.11.8 version which is highly stable by the time I
 
 ## Contact:
 You can mail me anytime s.aravindviews@gmail.com and I will respond within a day.We can collaborate and learn more
-Good Luck all :thumbsup:
+Good Luck :thumbsup:
 
