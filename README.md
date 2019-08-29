@@ -29,9 +29,9 @@ This Repository Demonstrates the work done by me while Learning [Apache Spark](h
 * [Airline Data Analysis](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/airlinedataanalysis_csv.scala)
 * [Worldbank Data Analysis_json](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/worldbankdatanalysis_json.scala)
 
-You Can Learn **Scala** [Here](https://twitter.github.io/scala_school/)
+* You Can Learn **Scala** [Here](https://twitter.github.io/scala_school/)
 
-You Can Learn **SQL** [Here](https://www.w3schools.com/sql/)
+* You Can Learn **SQL** [Here](https://www.w3schools.com/sql/)
 
 ## What is Spark and Why should I Use it ?
 
