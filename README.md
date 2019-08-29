@@ -30,6 +30,7 @@ This Repository Demonstrates the work done by me while Learning [Apache Spark](h
 * [Worldbank Data Analysis_json](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/worldbankdatanalysis_json.scala)
 
 You Can Learn **Scala** [Here](https://twitter.github.io/scala_school/)
+
 You Can Learn **SQL** [Here](https://www.w3schools.com/sql/)
 
 ## What is Spark and Why should I Use it ?
@@ -146,5 +147,6 @@ I used spark 2.3.1 and scala 2.11.8 version which is highly stable by the time I
 
 ## Contact:
 You can mail me anytime s.aravindviews@gmail.com and I will respond within a day.We can collaborate and learn more
+
 Good Luck :thumbsup:
 
