@@ -4,7 +4,7 @@
 
 This Repository Demonstrates the work done by me while Learning [Apache Spark](http://spark.apache.org/). Code Snippets contains **SCALA** and **SQL**. It contains the following Code Snippets:
 
-#### Note: Some Datasets are big which couldn't be uploaded.Mostly used datasets in these code can be found [Here.](https://github.com/i-m-aravind/spark-scala-tasks/tree/master/Datasets)
+#### Note: Some Datasets are big which couldn't be uploaded.Mostly used datasets in these code can be found [Here.](https://github.com/aravind-alpha/spark-scala-tasks/tree/master/Datasets)
 
 - You Can Learn **Scala** [Here](https://twitter.github.io/scala_school/)
 
@@ -48,7 +48,7 @@ Apache Spark has following features.
 - **Advanced Analytics** - Spark not only Supports **'Map'** and **'Reduce'**. It also supports **SQL Queries, Streaming Data, Machine   Learning and Graph Algorithms**
 
 ## Components of Apache Spark:
-![](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/apache-spark-ecosystem-components.jpg)
+![](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/apache-spark-ecosystem-components.jpg)
 
 ## Resilient Distributed Datasets(RDD):
 
