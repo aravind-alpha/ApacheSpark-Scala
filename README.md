@@ -140,7 +140,7 @@ Type :help for more information.
 ```
 ## For LINUX / MacOS:
 
-Go [Here](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/hadoop%20spark%20ecosystem%20installation%20in%20Ubuntu.txt) and copy the code and execute it line by line properly and follow further Instructions.
+Go [Here](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/hadoop%20spark%20ecosystem%20installation%20in%20Ubuntu.txt) and copy the code and execute it line by line properly and follow further Instructions.
 
 
 ## Acknowledgements:
