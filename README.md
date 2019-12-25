@@ -30,8 +30,8 @@ This Repository Demonstrates the work done by me while Learning [Apache Spark](h
 * [Orc-Parquet-Hive Data Processing](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/sparksql/Orc-Parquet-Hive_Data.scala)
 * [Fire_Service Analysis](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/sparksql/Fire_Dept_Call_Service_analysis_POC.scala)
 * [Real Estate Data Analysis](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/sparksql/RealEstate_data_analysis.scala)
-* [Airline Data Analysis](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/airlinedataanalysis_csv.scala)
-* [Worldbank Data Analysis_json](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/sparksql/worldbankdatanalysis_json.scala)
+* [Airline Data Analysis](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/sparksql/airlinedataanalysis_csv.scala)
+* [Worldbank Data Analysis_json](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/sparksql/worldbankdatanalysis_json.scala)
 
 
 ## What is Spark and Why should I Use it ?
