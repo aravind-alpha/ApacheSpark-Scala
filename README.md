@@ -2,7 +2,7 @@
 
 ![](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/Apache%20Spark%20Logo.png)
 
-This Repository Demonstrates the work done by me while Learning [Apache Spark](http://spark.apache.org/). Code Snippets contains **SCALA** and **SQL**. It contains the following Code Snippets:
+This Repository contains my work while Learning [Apache Spark](http://spark.apache.org/). Code Snippets contains **SCALA** and **SQL**. It contains the following Code Snippets:
 
 #### Note: Some Datasets are big which couldn't be uploaded.Mostly used datasets in these code can be found [Here.](https://github.com/aravind-alpha/spark-scala-tasks/tree/master/Datasets)
 
@@ -106,6 +106,7 @@ Download [**SQL WorkBench**](https://www.sql-workbench.eu/archive/Workbench-Buil
 Download All the Following Softwares seperately and Extract it to **work** Folder:
 - [Hadoop - 2.7.2.tar.gz](https://archive.apache.org/dist/hadoop/core/hadoop-2.7.2/hadoop-2.7.2.tar.gz)
 - [Hadoop -2.7.2.zip](https://drive.google.com/file/d/1gaTqmmnvPUJTXnnckpEYFrRsyLFZroex/view?usp=sharing_eip&ts=5a79a2ec)
+
 ###### NOTE: 
  * copy `bin`, `etc` folders from this and paste it in hadoop-2.7.2.tar.gz after extracting
  * Open hadoop-2.7.2.tar.gz after extracting, edit and change your JAVA path in hadoop env(Windows Script) and save it 
@@ -144,7 +145,7 @@ Go [Here](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/hadoop%
 
 
 ## Acknowledgements:
-I used spark 2.3.1 and scala 2.11.8 version which is highly stable by the time I created this repository. Dont Follow my code Grab some spark-scala projects from internet and start working on it. My Code is just my code snippets to get the hang of how spark works.It may not be so accurate or optimal in your view.Please do correct if something is wrong.Thanks.
+I used spark 2.3.1 and scala 2.11.8 version which is highly stable by the time I created this repository.Thanks.
 
 
 Good Luck :thumbsup:
