@@ -1,4 +1,4 @@
-# Spark-Scala-tasks
+# Spark-Scala Assignments:
 
 ![](https://github.com/i-m-aravind/spark-scala-tasks/blob/master/Apache%20Spark%20Logo.png)
 
