@@ -145,7 +145,4 @@ Go [Here](https://github.com/aravind-alpha/spark-scala-tasks/blob/master/hadoop%
 
 
 ## Acknowledgements:
-I used spark 2.3.1 and scala 2.11.8 version which is highly stable by the time I created this repository.Thanks.
-
-
-Good Luck :thumbsup:
+I used spark 2.3.1 and scala 2.11.8 version which is highly stable by the time I created this repository.
